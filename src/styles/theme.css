@@ -1,0 +1,28 @@
+/* src/styles/theme.css */
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.event-card {
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
